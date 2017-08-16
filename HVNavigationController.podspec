@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HVNavigationController"
-  s.version      = "0.0.2"
+  s.version      = "0.0.1"
   s.summary      = "跳转到navigation栈中指定controller，移除栈中自定义区间的controller"
 
 
@@ -49,9 +49,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes/**/*.{h,m}"
+  s.source_files  = "**/*.{h,m}"
 
-  s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "**/*.h"
+
+  s.ios.framework = 'UIKit'
 
 
 end
