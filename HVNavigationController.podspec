@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HVNavigationController"
-  s.version      = "0.0.2"
+  s.version      = "1.0.0"
   s.summary      = "跳转到navigation栈中指定controller，移除栈中自定义区间的controller"
 
 
