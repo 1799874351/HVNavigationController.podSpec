@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HVNavigationController"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "跳转到navigation栈中指定controller，移除栈中自定义区间的controller"
 
 
@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
   s.license      = { :type => "MIT",:file => "LICENSE" }
 
 
@@ -31,14 +30,6 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  s.platform     = :ios, "5.0"
-
-  #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -48,7 +39,7 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/1799874351/HVNavigationController.git", :tag => "#{s.version}" }
-
+  s.ios.deployment_target = '8.0'
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
